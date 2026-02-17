@@ -1,0 +1,9 @@
+apiVersion: apps.simple1.k8s.operators.com/v1
+kind: Greeting
+metadata:
+  labels:
+    app.kubernetes.io/name: greeting-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: greeting-sample
+spec:
+  # TODO(user): Add fields here
